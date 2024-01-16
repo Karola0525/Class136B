@@ -4,7 +4,7 @@ let display_date= "Fecha:" + date.toLocaleDateString()
 //Cargar HTML DOM
 $(document).ready(function () {
     $("#display_date").html(display_date)
-    $('#save_button').prop('disabled', true);
+   
 })
 
 let predicted_emotion;
